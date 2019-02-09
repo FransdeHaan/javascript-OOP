@@ -35,6 +35,33 @@ circle.draw(); */
  * 4-Constructor Function
  */
 
+/* function Circle(radius) {
+  this.radius = radius;
+  this.draw = function () {
+    console.log('draw');
+  }
+}
+
+const another = new Circle(1); */
+
+/**************************************
+ * 5-Constructor Property
+ */
+
+/* // Factory Function
+function createCircle(radius) {
+  return {
+    radius,
+    draw: function () {
+      console.log('draw');
+    }
+  };
+}
+
+const circle = createCircle(1);
+
+// Constructor Function
+
 function Circle(radius) {
   this.radius = radius;
   this.draw = function () {
@@ -42,4 +69,4 @@ function Circle(radius) {
   }
 }
 
-const another = new Circle(1);
+const another = new Circle(1); */
