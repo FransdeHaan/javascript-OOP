@@ -86,3 +86,16 @@ Circle.call({}, 1);
 Circle.apply({}, [1, 2, 3]);
 
 const another = new Circle(1); */
+
+/**************************************
+ * 7-Value vs Reference Types
+ */
+
+/* let obj = { value: 10 };
+
+function increase(obj) {
+  obj.value++;
+}
+
+increase(obj);
+console.log(obj); */
