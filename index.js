@@ -170,7 +170,7 @@ const circle = new Circle(10); */
  * 11-Private Properties and Methods
  */
 
-function Circle(radius) {
+/* function Circle(radius) {
   this.radius = radius;
 
   let defaultLocation = { x: 0, y: 0 };
@@ -186,4 +186,37 @@ function Circle(radius) {
 }
 
 const circle = new Circle(10);
-circle.draw();
+circle.draw(); */
+
+/**************************************
+ * 12-Getters and Setters
+ */
+
+/* function Circle(radius) {
+  this.radius = radius;
+
+  let defaultLocation = { x: 0, y: 0 };
+
+  this.getDefaultLocation = function () {
+    return defaultLocation;
+  };
+
+  this.draw = function () {
+    console.log('draw');
+  };
+
+  Object.defineProperty(this, 'defaultLocation', {
+    get: function () {
+      return defaultLocation;
+    },
+    set: function (value) {
+      if (!value.x || !value.y)
+        throw new Error('Invalid location.');
+
+      defaultLocation = value;
+    }
+  });
+}
+
+const circle = new Circle(10);
+circle.draw(); */
