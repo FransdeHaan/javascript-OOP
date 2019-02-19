@@ -220,3 +220,41 @@ circle.draw(); */
 
 const circle = new Circle(10);
 circle.draw(); */
+
+/**************************************
+ * 14-Exercise- Stopwatch
+ */
+
+/* function Stopwatch() {
+  let running = false;
+  let timeStarted = 0;
+  let duration = null;
+
+  this.start = function () {
+    if (running)
+      throw new Error('Stopwatch has already started.');
+
+    running = true;
+    timeStarted = Date.now();
+  };
+
+  this.stop = function () {
+    if (!running)
+      throw new Error('Stopwatch is not started');
+
+    running = false;
+    duration += Date.now() - timeStarted;
+  };
+
+  Object.defineProperty(this, 'duration', {
+    get: function() {
+      console.log(duration/1000);
+    }
+  });
+
+  this.reset = function () {
+    running = false;
+    timeStarted = null;
+    duration = null;
+  }
+} */
