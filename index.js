@@ -258,3 +258,19 @@ circle.draw(); */
     duration = null;
   }
 } */
+
+/**************************************
+ * 4-Property Descriptors
+ */
+
+let person = { name: 'Frans' };
+
+Object.defineProperty(person, 'name', {
+  writable: false,
+  enumerable: true,
+  configurable: false
+});
+
+delete person.name;
+
+console.log(person);
