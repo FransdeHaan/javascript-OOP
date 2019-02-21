@@ -263,7 +263,7 @@ circle.draw(); */
  * 4-Property Descriptors
  */
 
-let person = { name: 'Frans' };
+/* let person = { name: 'Frans' };
 
 Object.defineProperty(person, 'name', {
   writable: false,
@@ -273,4 +273,21 @@ Object.defineProperty(person, 'name', {
 
 delete person.name;
 
-console.log(person);
+console.log(person); */
+
+/**************************************
+ * 5-Constructor Prototypes
+ */
+
+
+
+// myObj.__proto__ (parent of myObj)
+// Constructor.prototype ()
+
+function Circle(radius) {
+  this.radius = radius;
+}
+
+Circle.prototype
+
+const circle = new Circle(1);
